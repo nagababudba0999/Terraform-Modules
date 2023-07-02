@@ -11,3 +11,11 @@ Step 2: Git credentials
 Create Git credentials for your IAM user, if you do not already have them. Download the credentials and save them in a secure location. Generate Git Credentials
 Step 3: Clone the repository
 Clone your repository to your local computer and start working on code. Run the following command:
+
+echo "# CloudFormation" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/nagababudba0999/CloudFormation.git
+git push -u origin main
